@@ -13,18 +13,23 @@
         <label>tam_pedras: <input name="tam_pedras" type="number" step="0.5" min="1" max="7" step="1" ></label></br>
         <label>corCeu1: <input name="corCeu1" type="color"></label> </br>
         <label>corCeu2: <input name="corCeu2" type="color"></label> </br>
-        <select name="tipo_pedras" id="tipo_pedras">
+        <label>tipo pedras: 
+        <select title="tipo_pedras" name="tipo_pedras" id="tipo_pedras">
+            <option value="--">--</option>
             <option value="marroada">marroada</option>
             <option value="ametista">ametista</option>
             <option value="topazio">topazio</option>
             <option value="espinela">espinela</option>
-        </select>        
-        <select name="tipo_pedras_sortidas" id="tipo_pedras_sortidas">
+        </select>
+        </label> </br>     
+        </label>tipo pedras sortidas: 
+        <select title="tipo_pedras_sortidas" name="tipo_pedras_sortidas" id="tipo_pedras_sortidas">
+            <option value="--">--</option>
             <option value="sim">Sim</option>
             <option value="não">Não</option>
         </select>
+        </label></br>
         <input type="submit" value="Enviar">
-      </form>
-      
+      </form>      
 </body>
 </html>
