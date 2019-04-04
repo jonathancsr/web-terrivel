@@ -7,12 +7,12 @@
     <title>Web Terrivel</title>
 </head>
 <body>
-    <form action="http://terrivel.herokuapp.com/monster" method="POST">
-        <label>num_pedras: <input name="num_pedras" type="number" pattern=""></label><br>
-        <label>tam_pedras: <input name="tam_pedras" type="number" step="0.5" min="0" max="100" step="1" ></label></br>
+    <form action="http://terrivel.herokuapp.com/monster" method="GET">
+        <label>nome: <input name="nome" type="text"></label></br>
+        <label>num_pedras: <input name="num_pedras" type="number" min="0"></label><br>
+        <label>tam_pedras: <input name="tam_pedras" type="number" step="0.5" min="1" max="7" step="1" ></label></br>
         <label>corCeu1: <input name="corCeu1" type="color"></label> </br>
         <label>corCeu2: <input name="corCeu2" type="color"></label> </br>
-        <label>tipo_pedras: <input name="tipo_pedras" type="text"></label> </br>
         <select name="tipo_pedras" id="tipo_pedras">
             <option value="marroada">marroada</option>
             <option value="ametista">ametista</option>
